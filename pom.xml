@@ -16,14 +16,22 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <mybatis.plus.version>2.3</mybatis.plus.version>
+        <mysql.version>8.0.12</mysql.version>
+        <fastjson.version>1.2.7</fastjson.version>
+        <mybatis.version>3.5.3</mybatis.version>
+        <javax.servlet-api-version>3.1.0</javax.servlet-api-version>
+        <ygkj-com-version>0.0.1-SNAPSHOT</ygkj-com-version>
+        <velocity-engine-core-version>2.0</velocity-engine-core-version>
     </properties>
 
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>5.0.8</version>
             <scope>runtime</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -35,6 +43,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
     </dependencies>
 
     <build>

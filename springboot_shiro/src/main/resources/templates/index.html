@@ -3,25 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="/css/index.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
 </head>
 <body>
-<h1>index</h1>
-
-<div>
-    <shiro:hasRole name="admin">
-    <h5>管理员</h5>
-    </shiro:hasRole>
-    <shiro:hasRole name="user">
-    <h5>普通用户</h5>
-    </shiro:hasRole>
-
-    <shiro:notAuthenticated>
-        　　12
-    </shiro:notAuthenticated>
-
-    <shiro:authenticated>　　
-        23
-    </shiro:authenticated>
+<h1 class="test">index</h1>
+<div class="test">
+    aa
 </div>
 </body>
 </html>
