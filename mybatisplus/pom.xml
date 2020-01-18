@@ -47,8 +47,20 @@
         <dependency>
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity-engine-core</artifactId>
-            <version>2.0</version>
+            <version>${velocity-engine-core-version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+        <!--<dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>-->
 
     </dependencies>
 
@@ -59,6 +71,15 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <!--将xml文件打包到classpath中-->
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
     </build>
 
     <repositories>

@@ -9,4 +9,8 @@
                     <result column="msg_tion" property="msgTion" />
         </resultMap>
 
+    <select id="selAll" resultMap="BaseResultMap" >
+        select * from tb_log
+    </select>
+
 </mapper>

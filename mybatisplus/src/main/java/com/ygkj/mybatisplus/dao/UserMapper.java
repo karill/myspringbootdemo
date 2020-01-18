@@ -1,10 +1,8 @@
 package com.ygkj.mybatisplus.dao;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.ygkj.mybatisplus.model.TbLog;
+import com.ygkj.mybatisplus.model.User;
 import org.apache.ibatis.annotations.Mapper;
-
-import java.util.List;
 
 /**
  * <p>
@@ -15,7 +13,6 @@ import java.util.List;
  * @since 2020-01-17
  */
 @Mapper
-public interface TbLogMapper extends BaseMapper<TbLog> {
+public interface UserMapper extends BaseMapper<User> {
 
-    List<TbLog> selAll();
 }

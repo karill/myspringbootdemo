@@ -11,7 +11,7 @@ import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 /**
  * @author hu cong
  * @date 2020/1/17 16:56
- * @Description:
+ * @Description: 表结构自动转换controller、service、dao、xml类
  */
 public class CodeGenerator {
 
